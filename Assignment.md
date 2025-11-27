@@ -48,7 +48,7 @@ Merge Conflict Simulation
 Each milestone contained several GitHub issues.
 
 
-![Issues](./docs/images/Issues(2).png)
+![Issues](./docs/images/Issues.png)
 
 1. GitHub Project Board
 
