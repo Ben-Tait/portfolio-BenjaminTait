@@ -1,5 +1,4 @@
 Line A - Original content
-Line B - Updated in Branch A
-
+Line B - Updated differently in Branch B
 Line C - Base ending
 # reset
