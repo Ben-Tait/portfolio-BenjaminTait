@@ -1,123 +1,131 @@
-/* ----------- GLOBAL STYLES ----------- */
-
+/* ---------- GLOBAL STYLES ---------- */
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
-  line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+    line-height: 1.6;
 }
 
 h1, h2, h3 {
-  margin: 0 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
-/* ----------- HERO SECTION ----------- */
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+}
 
+
+/* ---------- HERO SECTION ---------- */
 #hero {
-  padding: 80px 20px;
-  text-align: center;
-  background: linear-gradient(135deg, #1a1a1a, #333);
-  color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to bottom right, #1a1a1a, #333);
+    color: white;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 #hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+    font-size: 42px;
+    margin-bottom: 10px;
 }
 
 #hero p {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
-  opacity: 0.9;
+    font-size: 18px;
+    opacity: 0.9;
+    margin-bottom: 20px;
 }
 
-/* Button Styling */
+/* Button */
 .btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #ff9800;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: 0.3s ease-in-out;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ff7f00;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #e68900;
-  transform: translateY(-2px);
+    background-color: #e26f00;
+    transform: translateY(-3px);
 }
 
-/* ----------- ABOUT SECTION ----------- */
 
+/* ---------- ABOUT SECTION ---------- */
 #about {
-  padding: 50px 20px;
-  max-width: 900px;
-  margin: auto;
+    background: white;
+    margin-top: 40px;
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.06);
 }
 
 #about h2 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-#about p {
-  margin-bottom: 20px;
-  font-size: 1.05rem;
+    margin-bottom: 15px;
+    font-size: 28px;
 }
 
 #about ul {
-  list-style-type: square;
-  padding-left: 20px;
-  margin-bottom: 25px;
+    list-style-type: square;
+    padding-left: 20px;
 }
 
-/* ----------- PROJECTS SECTION ----------- */
 
+/* ---------- PROJECTS ---------- */
 #projects {
-  background-color: #fafafa;
-  padding: 50px 20px;
+    margin-top: 40px;
 }
 
 #projects h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
 }
 
 .projects-container {
-  max-width: 1000px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
 }
 
-/* Project Card */
 .project-card {
-  background: white;
-  padding: 25px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
-  transition: 0.25s ease-in-out;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 8px 18px rgba(0,0,0,0.12);
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.12);
 }
 
 .project-card h3 {
-  margin-bottom: 12px;
-  color: #222;
+    margin-bottom: 10px;
+    color: #ff7f00;
 }
 
 .project-card p {
-  margin-bottom: 10px;
-  font-size: 0.95rem;
+    margin-bottom: 10px;
 }
 
+
+/* ---------- MOBILE RESPONSIVENESS ---------- */
+@media (max-width: 600px) {
+    #hero h1 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 40px 15px;
+    }
+}
