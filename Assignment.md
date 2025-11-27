@@ -1,65 +1,58 @@
-Personal Portfolio Project – Assignment Submission
+Personal Portfolio Documentation
+1. Student Details
 
-Student Name: Benjamin Tait
+Full Name: Benjamin Tait
+
 Admission Number: 150250
-Project Title: Benjamin Tait Portfolio
-Live Site: https://ben-tait.github.io/portfolio-BenjaminTait/
-## 1. Project Overview
 
-This project is a Personal Portfolio Website built using HTML, CSS, and JavaScript, and managed fully through GitHub using proper software engineering workflows. The goal of the assignment was to:
+GitHub Username: Ben-Tait
 
-Practice GitHub project management
+Portfolio Repository:
+https://github.com/Ben-Tait/portfolio-BenjaminTait
 
-Use milestones, issues, and a project board
+Deployed Live Site:
+https://ben-tait.github.io/portfolio-BenjaminTait/
 
-Implement clean branching strategies
+2. Project Overview
 
-Follow conventional commits
+This project is a Personal Portfolio Website built using HTML, CSS, and JavaScript, managed end-to-end using GitHub best practices.
 
-Use feature branches
+Key learning objectives included:
 
-Create pull requests
+Using milestones, issues, and a project board
 
-Simulate and resolve a merge conflict
+Creating and working with feature branches
 
-Deploy the website using GitHub Pages
+Writing conventional commits
 
-The final result is a fully deployed, working personal portfolio site showcasing experience, skills, and projects.
+Using Pull Requests and code reviews
 
-## 2. Milestones
+Simulating and resolving a merge conflict
 
-I defined milestones to break the website into major development phases.
+Deploying the final solution using GitHub Pages
 
-Milestone List
-Milestone	Description	Link
-Landing Page Structure	Build the hero section and base layout for the site.
-About Section	Add details about my background, skills, and education.	
-Projects Section	Display projects and tech stacks used.	
-Deployment & Documentation	Prepare docs, deploy site, and write Assignment.md.	
-Merge Conflict Simulation	Create and resolve a real merge conflict.	
-## 3. Issues
+3. Milestones & Issues
 
-Each milestone was broken down into smaller tasks and tracked as issues.
+I organized the work into milestones that represented major parts of the portfolio:
 
-Example Issues 
+Landing Page Structure
 
-#2 – Build Hero Section → Part of Landing Page Milestone
+About Me Section
 
-#4 – Create About Me Section → Part of About Section Milestone
+Projects Section
 
-#5 – Add Projects Section → Part of Projects Milestone
+Deployment & Documentation
 
-#6 – Add Project Details → Part of Projects Milestone
+Merge Conflict Simulation
 
-#7 – Deployment Preparation → Deployment Milestone
+Each milestone contained several GitHub issues.
 
-#10 – Simulate Merge Conflict → Merge Conflict Milestone
 
 ![Issues](./docs/images/Issues(2).png)
 
-## 4. GitHub Project Board
+1. GitHub Project Board
 
-I created and used a Kanban-style board with these columns:
+I used a Kanban-style project board with the columns:
 
 To Do
 
@@ -67,19 +60,17 @@ In Progress
 
 Done
 
-Every issue was added to the board and moved across stages as I worked.
-
-Screenshot Placeholder
+Every issue was moved across the board as progress was made.
 
 ![Project Board](./docs/images/project-board.png)
 
-## 5. Git Workflow
-### Branching Strategy
 
-Every issue had its own feature branch using this naming format:
+1. Git Workflow
+A. Branching
 
-feature/<issue-number>-short-description
+Every issue had its own feature branch using the required naming format:
 
+feature/<issue-number>-description
 
 Examples:
 
@@ -88,136 +79,132 @@ feature/2-hero-section
 feature/4-about-me
 
 feature/6-project-details
+
 ![Branches](./docs/images/Branches.png)
-### Pull Requests (PRs)
 
-Each branch had a PR opened, linked to its issue, reviewed (self-review), and merged into main.
 
-### Commit Conventions
+B. Pull Requests
 
-I used conventional commits, with at least 6 commit types, including:
+Each feature branch had a PR opened, linked to its respective issue, reviewed (self-review), and merged.
 
-feat: – new feature
+![Pull Requests](./docs/images/pull-requests.png)
 
-fix: – bug fix
 
-docs: – documentation update
+C. Commit Conventions
 
-style: – formatting changes
+I used Conventional Commits, including at least 6 types:
 
-chore: – non-code tasks
+feat: new features
 
-test: – testing-related additions
+fix: bug fixes
 
-ci: – (optional) workflow config
+docs: documentation
 
-refactor: – code restructuring
+style: formatting
 
-Examples from the project
+chore: non-code tasks
 
-feat(hero): add hero section with CTA
+refactor: code restructuring
 
-chore(repo): initial project structure
+Examples used:
+
+feat(hero): add hero section layout
 
 fix(conflict): resolve merge conflict in conflict-demo.txt
 
 docs(assignment): update Assignment.md
 
+![Commit Conventions](./docs/images/Commit_Conventions.png)
 
-## 6. Pull Requests
 
-Each issue produced a PR.
+1. Merge Conflict Simulation
 
-Example PRs
-Branch	Purpose
-feature/2-hero-section	Added hero section
-feature/4-about-me	Added about section
-feature/6-project-details	Project cards + details
-feature/conflict-B	Merge conflict simulation
-Screenshot Placeholder
-
-![Pull Requests](./docs/images/pull-requests.png)
-
-## 7. Merge Conflict Simulation (Required Task)
-
-This was a major part of the assignment. I successfully simulated and resolved a merge conflict using branches A and B.
-
-Steps Followed
-
-Created file conflict-demo.txt.
-
-Created two branches:
+This was a required part of the assignment.
+I intentionally caused a merge conflict using two branches:
 
 feature/conflict-A
 
 feature/conflict-B
 
-Modified the same line differently in both branches.
+Both branches edited the same line in conflict-demo.txt differently.
 
-Merged branch A into main.
+Workflow Summary
 
-Opened PR for branch B → GitHub detected a conflict:
+Created conflict-demo.txt
 
-“This branch has conflicts that must be resolved.”
+Committed different changes in both branches
 
-Pulled main into branch B locally:
+Merged conflict-A into main successfully
+
+Opened PR for conflict-B → GitHub detected a conflict
+
+Pulled main into branch B:
 
 git pull origin main
 
 
-Resolved conflict manually in VS Code.
+VS Code highlighted the conflict
 
-Committed resolution:
+Resolved the conflict manually
+
+Committed the fix:
 
 fix(conflict): resolve merge conflict in conflict-demo.txt
 
 
-Pushed the resolved branch:
+Pushed and merged the PR successfully
 
-git push
-
-
-GitHub updated PR → no conflict → merged.
-
-Screenshot Placeholders
+Screenshots
 
 ![Merge Conflict](./docs/images/Merge_Conflict.png)
+
+
+
 ![Merge Conflict Resolved](./docs/images/Merge_Conflict_Resolved.png)
 
 
-## 8. Deployment
+1. Deployment
 
-The portfolio was deployed using GitHub Pages.
+Deployment was done with GitHub Pages.
 
-Steps:
+Steps
 
-Created a docs/ folder with index.html.
+Added all website files inside the docs/ folder
 
-Pushed updates to main.
+Committed and pushed to main
 
-Went to Settings → Pages → Source → main /docs
+Enabled GitHub Pages under:
+Settings → Pages → Source → main /docs
 
-GitHub generated the live URL.
+Live Site
 
-Live URL:
+https://ben-tait.github.io/portfolio-BenjaminTait/
 
-(https://ben-tait.github.io/portfolio-BenjaminTait/)
-
-Screenshot Placeholder
-
-
-## 9. Final Checklist
-Requirement	Completed
+8. Final Checklist
+Requirement	Status
 Milestones created	✔️
-Issues created and linked	✔️
+Issues created & linked	✔️
 Project board organized	✔️
 Feature branches used	✔️
-Conventional commits (6+ types)	✔️
-Pull requests opened & merged	✔️
+6+ Conventional commits	✔️
+Pull requests created	✔️
 Merge conflict simulated	✔️
-Merge conflict resolved manually	✔️
+Merge conflict resolved	✔️
 GitHub Pages deployed	✔️
 Assignment.md completed	✔️
-## 10. Conclusion
 
-This assignment allowed me to practice real-world software development workflows, including version control, issue tracking, project planning, PR management, and conflict resolution. I completed a fully functioning personal portfolio while applying industry-standard Git and GitHub practices.
+9. Conclusion
+
+This project strengthened my understanding of software engineering workflows, GitHub collaboration, and deployment. I practiced industry-standard approaches such as:
+
+Structured project planning
+
+Branching and pull request workflows
+
+Merge conflict resolution
+
+Clean commit history
+
+Continuous deployment with GitHub Pages
+
+The final portfolio is fully deployed and adheres to all assignment requirements.
