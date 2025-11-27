@@ -1,6 +1,4 @@
-I'll format the content in proper Markdown:
 
-```markdown
 # Personal Portfolio Documentation
 
 ## 1. Student Details
@@ -185,4 +183,3 @@ This project strengthened my understanding of software engineering workflows, Gi
 - Continuous deployment with GitHub Pages
 
 The final portfolio is fully deployed and adheres to all assignment requirements.
-```
