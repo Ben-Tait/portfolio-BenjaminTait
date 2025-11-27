@@ -1,0 +1,3 @@
+Line A - Original content
+Line B - Updated in Branch A
+Line C - Base ending
