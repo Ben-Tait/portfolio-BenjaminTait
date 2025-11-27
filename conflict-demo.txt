@@ -1,3 +1,5 @@
 Line A - Original content
-Line B - Updated in Branch A
+Line B - Common line
+
 Line C - Base ending
+# reset
